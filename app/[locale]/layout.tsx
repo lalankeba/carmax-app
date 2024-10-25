@@ -54,7 +54,9 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: {locale: string};
 }) {
-  if (!routing.locales.includes(locale as any)) {
+  type Locale = (typeof routing.locales)[number];
+
+  if (!routing.locales.includes(locale as Locale)) {
     locale = routing.defaultLocale;
   }
 
