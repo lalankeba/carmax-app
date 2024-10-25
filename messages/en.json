@@ -1,6 +1,30 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+  "title": "CARMAX Auto Repair",
+  "description": "Expert care for your car",
+  "keywords": "car, auto, repair, maintenance, vehicle, Tampere",
+  "pages": {
+    "Home": {
+      "pageTitle": "CARMAX Auto Repair",
+      "pageDescription": "Expert care for your car",
+      "pageKeywords": "car, auto, repair, maintenance, vehicle, Tampere",
+      "title": "Welcome to CARMAX"
+    }
+  },
+  "components": {
+    "NavigationBar": {
+      "title": "CARMAX Auto Repair",
+      "about": "About",
+      "services": "Services",
+      "location": "Location",
+      "gallery": "Gallery",
+      "reviews": "Reviews",
+      "contact": "Contact",
+      "en": "English (en)",
+      "fi": "Finnish (fi)"
+    },
+    "FooterBar": {
+      "title": "\u00A9 {currentYear} CARMAX Auto Repair, all rights reserved.",
+      "craft": "Crafted by Lalanke Athauda"
+    }
   }
 }
