@@ -1,7 +1,7 @@
 "use client";
 import { useTranslations } from "next-intl";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import { Link, usePathname, useRouter } from '@/i18n/routing';
+import { usePathname, useRouter } from '@/i18n/routing';
 import Image from "next/image";
 import "./navigation-bar.scss";
 
@@ -15,11 +15,11 @@ const NavigationBar: React.FC = () => {
   }
 
   const navLinks = [
-    { title: t('services'), path: '/services'},
-    { title: t('location'), path: '/location'},
-    { title: t('gallery'), path: '/gallery'},
-    { title: t('reviews'), path: '/reviews'},
-    { title: t('contact'), path: '/contact'},
+    { title: t('services'), path: '#services'},
+    { title: t('location'), path: '#location'},
+    { title: t('gallery'), path: '#gallery'},
+    { title: t('reviews'), path: '#reviews'},
+    { title: t('contact'), path: '#contact'},
   ];
 
   return (
@@ -40,7 +40,7 @@ const NavigationBar: React.FC = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               {navLinks.map((navLink) => (
-                <Nav.Link key={navLink.title} as={Link} href={navLink.path} active={pathname.endsWith(navLink.path)}>
+                <Nav.Link key={navLink.title} href={navLink.path} active={pathname.endsWith(navLink.path)}>
                   {navLink.title}
                 </Nav.Link>
               ))}
