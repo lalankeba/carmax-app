@@ -13,7 +13,6 @@
   "components": {
     "NavigationBar": {
       "title": "CARMAX Auto Repair",
-      "about": "About",
       "services": "Services",
       "location": "Location",
       "gallery": "Gallery",
@@ -21,6 +20,20 @@
       "contact": "Contact",
       "en": "English (en)",
       "fi": "Finnish (fi)"
+    },
+    "SwiperContainer": {
+      "slide1": {
+        "title": "CARMAX",
+        "subTitle": "Auto Repair Tampere"
+      },
+      "slide2": {
+        "title": "We Care",
+        "subTitle": "Ensure top-quality repairs every time"
+      },
+      "slide3": {
+        "title": "In Good Hands",
+        "subTitle": "Expert repairs with attention to every detail."
+      }
     },
     "FooterBar": {
       "title": "\u00A9 {currentYear} CARMAX Auto Repair, all rights reserved.",

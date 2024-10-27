@@ -13,7 +13,6 @@
   "components": {
     "NavigationBar": {
       "title": "CARMAX Auto Repair",
-      "about": "Meistä",
       "services": "Palvelut",
       "location": "Sijainti",
       "gallery": "Galleria",
@@ -21,6 +20,20 @@
       "contact": "Ota yhteyttä",
       "en": "English (en)",
       "fi": "Finnish (fi)"
+    },
+    "SwiperContainer": {
+      "slide1": {
+        "title": "CARMAX",
+        "subTitle": "Autokorjaamo Tampere"
+      },
+      "slide2": {
+        "title": "Me välitämme",
+        "subTitle": "Takaa laadukkaat korjaukset joka kerta"
+      },
+      "slide3": {
+        "title": "Hyvissä käsissä",
+        "subTitle": "Asiantuntevat korjaukset huomioiden kaikki yksityiskohdat"
+      }
     },
     "FooterBar": {
       "title": "\u00A9 {currentYear} CARMAX Auto Repair, kaikki oikeudet pidätetään.",

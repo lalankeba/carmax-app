@@ -8,11 +8,11 @@ const FooterBar: React.FC = () => {
     <>
       <div className="footer-bar">
         <Container fluid="md">
-          <Row>
+          <Row style={{ minHeight: '3.5rem' }}>
             <Col className="d-flex justify-content-center align-items-center">
               <div>
-                <p>{t('title', { currentYear: new Date().getFullYear() })}</p>
-                <p>{t('craft')}</p>
+                <span className="me-1">{t('title', { currentYear: new Date().getFullYear() })}</span>
+                <span>{t('craft')}</span>
               </div>
             </Col>
           </Row>

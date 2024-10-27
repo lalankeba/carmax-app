@@ -2,8 +2,8 @@
 import { useTranslations } from "next-intl";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link, usePathname, useRouter } from '@/i18n/routing';
-import "./navigation-bar.scss";
 import Image from "next/image";
+import "./navigation-bar.scss";
 
 const NavigationBar: React.FC = () => {
   const t = useTranslations('components.NavigationBar');
@@ -15,7 +15,6 @@ const NavigationBar: React.FC = () => {
   }
 
   const navLinks = [
-    { title: t('about'), path: '/about'},
     { title: t('services'), path: '/services'},
     { title: t('location'), path: '/location'},
     { title: t('gallery'), path: '/gallery'},
@@ -25,14 +24,14 @@ const NavigationBar: React.FC = () => {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary navigation-bar">
+      <Navbar collapseOnSelect fixed="top" expand="lg" className="bg-body-tertiary navigation-bar">
         <Container fluid="md">
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <Image
               alt=""
               src="/images/carmax-logo.png"
-              width="60"
-              height="60"
+              width="40"
+              height="40"
               className="d-inline-block align-center me-4"
             />
             {t('title')}
