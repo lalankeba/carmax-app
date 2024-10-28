@@ -44,6 +44,8 @@ const NavigationBar: React.FC = () => {
                   {navLink.title}
                 </Nav.Link>
               ))}
+            </Nav>
+            <Nav>
               <NavDropdown title={<><span className="bi bi-translate"></span></>} id="basic-nav-dropdown">
                 <NavDropdown.Item onClick={() => changeLanguage('en')}>
                   { t('en') }

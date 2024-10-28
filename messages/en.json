@@ -37,7 +37,19 @@
     },
     "ServicesContainer": {
       "title": "Services We Offer",
-      "subTitle": "We specialize in comprehensive repairs and maintenance for all diesel and petrol vehicles."
+      "subTitle": "We specialize in comprehensive repairs and maintenance for all diesel and petrol vehicles.",
+      "scans": "Scans",
+      "scansDesc": "Advanced diagnostic scans ensure accurate detection of issues, allowing us to provide precise and efficient repairs for your vehicle.",
+      "repairs": "Repairs",
+      "repairsDesc": "Our expert services include precise brake, suspension, cooling system, and engine repairs to keep your vehicle performing at its best.",
+      "tuneups": "Tune Ups",
+      "tuneupsDesc": "Our engine tune-ups, including thorough fuel system cleaning, ensure optimal performance and fuel efficiency for your vehicle.",
+      "oilchange": "Oil Change",
+      "oilchangeDesc": "Our comprehensive oil change services cover the engine, manual gearbox, automatic gearbox, and differential for smooth operation.",
+      "tyres": "Tyres",
+      "tyresDesc": "We provide professional wheel and tyre replacement services, ensuring your vehicle's safety and optimal performance on the road.",
+      "motorcycle": "Motorcycle Repairs",
+      "motorcycleDesc": "We offer expert motorcycle repair services, ensuring your bike's safety, reliability, and top performance for every ride on the road."
     },
     "FooterBar": {
       "title": "\u00A9 {currentYear} CARMAX Auto Repair, all rights reserved.",

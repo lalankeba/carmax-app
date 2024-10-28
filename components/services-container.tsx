@@ -1,91 +1,74 @@
 "use client";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExpand, faScrewdriverWrench, faVialCircleCheck, faOilCan, faMotorcycle } from '@fortawesome/free-solid-svg-icons';
+import { faCircle } from '@fortawesome/free-regular-svg-icons';
 import { useTranslations } from "next-intl";
 import { Card, Col, Container, Row } from "react-bootstrap";
+import "./services-container.scss";
 
 const ServicesContainer: React.FC = () => {
   const t = useTranslations('components.ServicesContainer');
 
+  const serviceCards = [
+    {
+      "title": t('scans'),
+      "icon": faExpand,
+      "description": t('scansDesc')
+    },
+    {
+      "title": t('repairs'),
+      "icon": faScrewdriverWrench,
+      "description": t('repairsDesc')
+    },
+    {
+      "title": t('tuneups'),
+      "icon": faVialCircleCheck,
+      "description": t('tuneupsDesc')
+    },
+    {
+      "title": t('oilchange'),
+      "icon": faOilCan,
+      "description": t('oilchangeDesc')
+    },
+    {
+      "title": t('tyres'),
+      "icon": faCircle,
+      "description": t('tyresDesc')
+    },
+    {
+      "title": t('motorcycle'),
+      "icon": faMotorcycle,
+      "description": t('motorcycleDesc')
+    },
+
+  ];
+
   return (
     <>
       <section id="services" className="services">
-        <Container fluid="md" className="py-4">
-          <Row className="g-4">
+        <Container fluid="md" className="py-5">
+          <Row className="mb-4">
             <Col>
               <h1>{t('title')}</h1>
-              <h4>{t('subTitle')}</h4>
+              <h5>{t('subTitle')}</h5>
             </Col>
           </Row>
-          <Row lg={4} md={3} sm={2} xs={1} className="g-4">
-            <Col>
-              <Card>
-                <Card.Body>
-                  <div className="d-flex flex-column align-items-center">
-                    <FontAwesomeIcon icon={faExpand} size="8x" className="mb-3" />
-                    <Card.Title className="text-center">Scans</Card.Title>
-                  </div>
-                  <Card.Text>
-                    Vehicle scans
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Body>
-                  <div className="d-flex flex-column align-items-center">
-                    <FontAwesomeIcon icon={faScrewdriverWrench} size="8x" className="mb-3" />
-                    <Card.Title className="text-center">Repairs</Card.Title>
-                  </div>
-                  <Card.Text>
-                    Brake repair
-                    Suspension repair
-                    Cooling system repair
-                    Engine repair
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Body>
-                  <div className="d-flex flex-column align-items-center">
-                    <FontAwesomeIcon icon={faVialCircleCheck} size="8x" className="mb-3" />
-                    <Card.Title className="text-center">Tune Ups</Card.Title>
-                  </div>
-                  <Card.Text>
-                    Engine tuneups (fuel system clean)
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Body>
-                  <div className="d-flex flex-column align-items-center">
-                    <FontAwesomeIcon icon={faOilCan} size="8x" className="mb-3" />
-                    <Card.Title className="text-center">Oil Change</Card.Title>
-                  </div>
-                  <Card.Text>
-                    Oil change engine/manual gear box/ auto gear box/differential
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col>
-              <Card>
-                <Card.Body>
-                  <div className="d-flex flex-column align-items-center">
-                    <FontAwesomeIcon icon={faMotorcycle} size="8x" />
-                    <Card.Title className="text-center">Motorcycle Repairs</Card.Title>
-                  </div>
-                  <Card.Text>
-                    Oil change engine/manual gear box/ auto gear box/differential
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
+          <Row xxl={4} xl={3} lg={3} md={2} sm={2} xs={1} className="g-5">
+            {serviceCards.map((card) => (
+              <Col key={card.title}>
+                <Card className="service-card">
+                  <Card.Body>
+                    <div className="d-flex flex-column align-items-center">
+                      <FontAwesomeIcon icon={card.icon} size="5x" className="py-4" />
+                      <Card.Title className="text-center">{card.title}</Card.Title>
+                    </div>
+                    <Card.Text className="text-justify">
+                      {card.description}
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))}
           </Row>
         </Container>
       </section>

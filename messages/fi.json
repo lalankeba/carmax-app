@@ -37,7 +37,19 @@
     },
     "ServicesContainer": {
       "title": "Palvelut tarjoamme",
-      "subTitle": "Olemme erikoistuneet kaikkien diesel- ja bensiinikäyttöisten ajoneuvojen kokonaisvaltaiseen korjaukseen ja huoltoon."
+      "subTitle": "Olemme erikoistuneet kaikkien diesel- ja bensiinikäyttöisten ajoneuvojen kokonaisvaltaiseen korjaukseen ja huoltoon.",
+      "scans": "Skannaukset",
+      "scansDesc": "Kehittyneet diagnostiset skannaukset varmistavat ongelmien tarkan havaitsemisen, minkä ansiosta voimme tarjota tarkat ja tehokkaat korjaukset ajoneuvollesi.",
+      "repairs": "Korjaukset",
+      "repairsDesc": "Asiantuntijapalveluihimme kuuluvat tarkat jarrut, jousitus, jäähdytysjärjestelmä ja moottorin korjaukset, jotta ajoneuvosi toimisi parhaimmillaan.",
+      "tuneups": "Viritys",
+      "tuneupsDesc": "Moottorin virityksemme, mukaan lukien perusteellinen polttoainejärjestelmän puhdistus, varmistavat ajoneuvosi optimaalisen suorituskyvyn ja polttoainetehokkuuden.",
+      "oilchange": "Öljynvaihto",
+      "oilchangeDesc": "Kattavat öljynvaihtopalvelumme kattavat moottorin, manuaalivaihteiston, automaattivaihteiston ja tasauspyörästön sujuvan toiminnan takaamiseksi.",
+      "tyres": "Renkaat",
+      "tyresDesc": "Tarjoamme ammattimaisia ​​vanteiden ja renkaiden vaihtopalveluita, jotka varmistavat ajoneuvosi turvallisuuden ja optimaalisen suorituskyvyn tiellä.",
+      "motorcycle": "Moottoripyörien korjaukset",
+      "motorcycleDesc": "Tarjoamme asiantuntevia moottoripyörien korjauspalveluita, jotka varmistavat pyöräsi turvallisuuden, luotettavuuden ja huippusuorituskyvyn jokaisessa ajomatkassa."
     },
     "FooterBar": {
       "title": "\u00A9 {currentYear} CARMAX Auto Repair, kaikki oikeudet pidätetään.",
