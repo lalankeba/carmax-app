@@ -1,5 +1,9 @@
 .navigation-bar {
 
-  min-height: var(--navigation-bar-height);
+  height: var(--navigation-bar-height);
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(var(--bs-body-bg-rgb), 0.5);
 
 }

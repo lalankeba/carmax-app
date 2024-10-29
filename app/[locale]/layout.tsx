@@ -3,8 +3,8 @@ import { getMessages, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Exo_2 } from "next/font/google";
 import NavigationBar from "@/components/navigation-bar";
-import "./globals.scss";
 import FooterBar from "@/components/footer-bar";
+import "./globals.scss";
 
 const exo2 = Exo_2({ subsets: ["latin"]});
 
@@ -63,7 +63,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} data-bs-theme="dark">
       <body className={`${exo2.className}`}>
         <NextIntlClientProvider messages={messages}>
           <div className="app">

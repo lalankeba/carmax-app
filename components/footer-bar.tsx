@@ -6,7 +6,7 @@ const FooterBar: React.FC = () => {
 
   return (
     <>
-      <div className="footer-bar">
+      <div className="footer-bar bg-body-tertiary">
         <Container fluid="md">
           <Row style={{ minHeight: '3.5rem' }}>
             <Col className="d-flex justify-content-center align-items-center">
