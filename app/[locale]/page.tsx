@@ -1,3 +1,4 @@
+import LocationContainer from "@/components/location-container";
 import ServicesContainer from "@/components/services-container";
 import SwiperContainer from "@/components/swiper-container";
 import { useTranslations } from "next-intl";
@@ -11,6 +12,7 @@ export default function Home() {
       <div>
         <SwiperContainer />
         <ServicesContainer />
+        <LocationContainer />
         
         <Container fluid="md">
           <Row>

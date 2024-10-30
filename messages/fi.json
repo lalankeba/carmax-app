@@ -51,6 +51,13 @@
       "motorcycle": "Moottoripyörien korjaukset",
       "motorcycleDesc": "Tarjoamme asiantuntevia moottoripyörien korjauspalveluita, jotka varmistavat pyöräsi turvallisuuden, luotettavuuden ja huippusuorituskyvyn jokaisessa ajomatkassa."
     },
+    "LocationContainer": {
+      "title": "Sijainti",
+      "subTitle": "Olemme sijaitsee",
+      "streetAddress": "Toivionkatu 5,",
+      "codeAndCity": "33900 Tampere,",
+      "country": "Finland"
+    },
     "FooterBar": {
       "title": "\u00A9 {currentYear} CARMAX Auto Repair, kaikki oikeudet pidätetään.",
       "craft": "Valmistaja Lalanke Athauda"
