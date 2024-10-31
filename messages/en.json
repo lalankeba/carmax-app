@@ -53,10 +53,15 @@
     },
     "LocationContainer": {
       "title": "Location",
-      "subTitle": "We are located in",
+      "subTitle": "We are located at",
       "streetAddress": "Toivionkatu 5,",
       "codeAndCity": "33900 Tampere,",
       "country": "Finland"
+    },
+    "ReviewsContainer": {
+      "title": "Reviews",
+      "subTitle": "What people say about us",
+      "transparencyNote": "Minor edits made for clarity and readability."
     },
     "FooterBar": {
       "title": "\u00A9 {currentYear} CARMAX Auto Repair, all rights reserved.",

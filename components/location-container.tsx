@@ -16,7 +16,7 @@ const LocationContainer: React.FC = () => {
     <>
       <section id="location" className="location">
         <Container fluid="md">
-          <Row className="mb-4" md={2} sm={1} xs={1}>
+          <Row md={2} sm={1} xs={1}>
             <Col className="py-5">
               <h1>{t('title')}</h1>
               <h5>{t('subTitle')}</h5>

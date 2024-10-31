@@ -1,6 +1,7 @@
 import LocationContainer from "@/components/location-container";
 import ServicesContainer from "@/components/services-container";
 import SwiperContainer from "@/components/swiper-container";
+import ReviewsContainer from "@/components/reviews-container";
 import { useTranslations } from "next-intl";
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -13,6 +14,8 @@ export default function Home() {
         <SwiperContainer />
         <ServicesContainer />
         <LocationContainer />
+
+        <ReviewsContainer />
         
         <Container fluid="md">
           <Row>
