@@ -18,13 +18,29 @@ const LocationContainer: React.FC = () => {
         <Container fluid="md">
           <Row md={2} sm={1} xs={1}>
             <Col className="py-5">
-              <h1>{t('title')}</h1>
-              <h5>{t('subTitle')}</h5>
-              <div className="mt-5">
-                <p>{t('streetAddress')}</p>
-                <p>{t('codeAndCity')}</p>
-                <p>{t('country')}</p>
-              </div>
+              <Row>
+                <Col>
+                  <h1>{t('title')}</h1>
+                  <h5>{t('subTitle')}</h5>
+                  <div className="mt-2">
+                    <p>{t('streetAddress')}</p>
+                    <p>{t('codeAndCity')}</p>
+                    <p>{t('country')}</p>
+                  </div>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <h3>{t('timeTitle')}</h3>
+                  <h5>{t('timeSubTitle')}</h5>
+                  <div className="mt-2">
+                    <p>{t('weekdays')}</p>
+                    <p>{t('saturdays')}</p>
+                    <p>{t('sundays')}</p>
+                  </div>
+                </Col>
+              </Row>
+
             </Col>
             <Col>
               <div className="map-wrapper">

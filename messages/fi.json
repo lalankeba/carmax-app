@@ -67,7 +67,16 @@
       "subTitle": "Olemme sijaitsee",
       "streetAddress": "Toivionkatu 5,",
       "codeAndCity": "33900 Tampere,",
-      "country": "Finland"
+      "country": "Finland",
+      "timeTitle": "Aukioloaika",
+      "timeSubTitle": "Olemme tavoitettavissa seuraavilla aikaväleillä",
+      "weekdays": "ma-pe: klo 18 jälkeen",
+      "saturdays": "La: klo 15-20",
+      "sundays": "Su: klo 8-17"
+    },
+    "GalleryContainer": {
+      "title": "Galleria",
+      "subTitle": "Muutama kuva työstämme"
     },
     "ReviewsContainer": {
       "title": "Arvostelut",
