@@ -11,6 +11,14 @@
     },
     "Loading": {
       "title": "Ladataan..."
+    },
+    "NotFound": {
+      "pageTitle": "Ei löydy",
+      "pageDescription": "Sivua ei löydy.",
+      "pageKeywords": "404, ei löytynyt, resurssia ei löydy",
+      "title": "Sivua ei löytynyt",
+      "subTitle": "404",
+      "description": "Valitettavasti etsimääsi sivua ei löytynyt. Yritä palata <link>kotisivulle</link> tai tarkistaa <em>URL</em>-osoite."
     }
   },
   "components": {

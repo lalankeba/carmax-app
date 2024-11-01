@@ -4,6 +4,9 @@ import { routing } from "@/i18n/routing";
 import { Exo_2 } from "next/font/google";
 import NavigationBar from "@/components/navigation-bar";
 import FooterBar from "@/components/footer-bar";
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+config.autoAddCss = false;
 import "./globals.scss";
 
 const exo2 = Exo_2({ subsets: ["latin"]});

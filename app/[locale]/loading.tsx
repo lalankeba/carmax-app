@@ -12,12 +12,10 @@ const Loading = () => {
     <>
       <div className="loading">
         <Container fluid="md">
-            <Row className="my-4">
-              <Col>
-                <h4 className="text-center my-3">{t('title')}</h4>
-                <div className="text-center my-3">
-                  <FontAwesomeIcon icon={faCircleNotch} size="4x" spin />
-                </div>
+            <Row>
+              <Col className="d-flex flex-column justify-content-center align-items-center" style={{ minHeight: 'calc(100svh - var(--navigation-bar-height) - 6rem)' }}>
+                <h1 className="display-1">{t('title')}</h1>
+                <FontAwesomeIcon icon={faCircleNotch} size="4x" spin />
               </Col>
             </Row>
         </Container>

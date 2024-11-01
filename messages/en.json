@@ -11,6 +11,14 @@
     },
     "Loading": {
       "title": "Loading..."
+    },
+    "NotFound": {
+      "pageTitle": "Not Found",
+      "pageDescription": "The page cannot be found.",
+      "pageKeywords": "404, not found, not-found, resource not found",
+      "title": "Not Found",
+      "subTitle": "404",
+      "description": "Unfortunately, the page you were looking for was not found. Try going back to <link>home page</link> or checking the <em>URL</em>."
     }
   },
   "components": {
