@@ -8,6 +8,9 @@
       "pageDescription": "Expert care for your car",
       "pageKeywords": "car, auto, repair, maintenance, vehicle, Tampere",
       "title": "Tervetuloa CARMAXiin"
+    },
+    "Loading": {
+      "title": "Ladataan..."
     }
   },
   "components": {
