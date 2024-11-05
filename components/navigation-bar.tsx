@@ -5,6 +5,7 @@ import { Container, Nav, Navbar, NavDropdown, Offcanvas } from "react-bootstrap"
 import { usePathname, useRouter } from '@/i18n/routing';
 import Image from "next/image";
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
+import Link from "next/link";
 import "./navigation-bar.scss";
 
 const NavigationBar: React.FC = () => {
@@ -61,11 +62,11 @@ const NavigationBar: React.FC = () => {
   }
 
   const navLinks = [
-    { title: t('services'), path: '#services'},
-    { title: t('location'), path: '#location'},
-    { title: t('gallery'), path: '#gallery'},
-    { title: t('reviews'), path: '#reviews'},
-    { title: t('contact'), path: '#contact'},
+    { title: t('services'), path: '/#services'},
+    { title: t('location'), path: '/#location'},
+    { title: t('gallery'), path: '/#gallery'},
+    { title: t('reviews'), path: '/#reviews'},
+    { title: t('contact'), path: '/#contact'},
   ];
 
   return (
@@ -84,7 +85,7 @@ const NavigationBar: React.FC = () => {
         transition={{ duration: 0.3 }}
       >
         <Container fluid="md">
-          <Navbar.Brand href="/">
+          <Navbar.Brand as={Link} href="/">
             <Image
               alt=""
               src="/images/carmax-logo.png"
@@ -109,7 +110,7 @@ const NavigationBar: React.FC = () => {
             <Offcanvas.Body>
               <Nav className="me-auto flex-grow-1 pe-3">
                 {navLinks.map((navLink) => (
-                  <Nav.Link key={navLink.title} href={navLink.path} active={pathname.endsWith(navLink.path)} onClick={handleLinkClick}>
+                  <Nav.Link key={navLink.title} as={Link} href={navLink.path} active={pathname.endsWith(navLink.path)} onClick={handleLinkClick}>
                     {navLink.title}
                   </Nav.Link>
                 ))}
