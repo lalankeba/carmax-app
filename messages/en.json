@@ -76,7 +76,12 @@
     },
     "GalleryContainer": {
       "title": "Gallery",
-      "subTitle": "Few pictures about our work"
+      "subTitle": "Few pictures about our work",
+      "renaultClio": "Renault clio4 front left coil spring replace",
+      "renaultMagna": "Renault magna Timing belt & water pump replace",
+      "toyotaYaris": "Toyota yaris 2006 fuel system  & ignition system clean",
+      "fiatPunto": "Fiat punto tie rod end replace",
+      "kiaRio": "Kia rio 2 not start fault, immobilizer system fault repair"
     },
     "ReviewsContainer": {
       "title": "Reviews",

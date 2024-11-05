@@ -61,12 +61,19 @@ const NavigationBar: React.FC = () => {
     router.replace(pathname, { locale: lang });
   }
 
+  const getRelativePath = (path: string) => {
+    if (pathname !== "/") {
+      return `/${path}`;
+    }
+    return `${path}`;
+  }
+
   const navLinks = [
-    { title: t('services'), path: '/#services'},
-    { title: t('location'), path: '/#location'},
-    { title: t('gallery'), path: '/#gallery'},
-    { title: t('reviews'), path: '/#reviews'},
-    { title: t('contact'), path: '/#contact'},
+    { title: t('services'), path: getRelativePath('#services')},
+    { title: t('location'), path: getRelativePath('#location')},
+    { title: t('gallery'), path: getRelativePath('#gallery')},
+    { title: t('reviews'), path: getRelativePath('#reviews')},
+    { title: t('contact'), path: getRelativePath('#contact')},
   ];
 
   return (

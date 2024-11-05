@@ -76,7 +76,12 @@
     },
     "GalleryContainer": {
       "title": "Galleria",
-      "subTitle": "Muutama kuva työstämme"
+      "subTitle": "Muutama kuva työstämme",
+      "renaultClio": "Renault clio4 etuvasen kierrejousen vaihto",
+      "renaultMagna": "Renault magna Jakohihna ja vesipumppu vaihdettu",
+      "toyotaYaris": "Toyota yaris 2006 polttoainejärjestelmä ja sytytysjärjestelmä siistit",
+      "fiatPunto": "Fiat punto raidetangon pään vaihto",
+      "kiaRio": "Kia rio 2 ei käynnisty vika, ajonestojärjestelmän vian korjaus"
     },
     "ReviewsContainer": {
       "title": "Arvostelut",
