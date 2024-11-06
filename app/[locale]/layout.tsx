@@ -36,13 +36,13 @@ export async function generateMetadata ({ params }: { params: { locale: string }
         {
           url: '/images/carmaxautorepair.png',
           width: 1023,
-          height: 579,
+          height: 537,
           alt: 'carmax-auto-repair',
         },
         {
-          url: '/images/carmax-logo.png',
-          width: 280,
-          height: 280,
+          url: '/images/carmaxautorepairs.png',
+          width: 600,
+          height: 314,
           alt: 'carmax-auto-repair',
         },
       ],
