@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import "./contact-container.scss";
 
 const ContactContainer: React.FC = () => {
   const t = useTranslations('components.ContactContainer');
