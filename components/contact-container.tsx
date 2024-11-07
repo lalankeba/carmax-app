@@ -26,7 +26,9 @@ const ContactContainer: React.FC = () => {
                   <FontAwesomeIcon icon={faPhone} size="3x" />
                 </Col>
                 <Col xs={10} className="d-flex align-items-center">
-                  <span className="lead">{t('phone')}</span>
+                  <a href="tel:+358417260959" className="lead contact-link">
+                    {t('phone')}
+                  </a>
                 </Col>
               </Row>
             </Col>
@@ -36,7 +38,9 @@ const ContactContainer: React.FC = () => {
                   <FontAwesomeIcon icon={faEnvelope} size="3x" />
                 </Col>
                 <Col xs={10} className="d-flex align-items-center">
-                  <span className="lead">{t('email')}</span>
+                  <a href="mailto:pubudulasantha33@gmail.com" className="lead contact-link">
+                    {t('email')}
+                  </a>
                 </Col>
               </Row>
             </Col>

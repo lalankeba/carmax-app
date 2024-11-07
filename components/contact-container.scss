@@ -22,4 +22,19 @@
     z-index: 2;
   }
 
+  .contact-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .contact-link:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
+
+  .contact-link:focus {
+    text-decoration: none;
+    color: inherit;
+  }
+
 }
