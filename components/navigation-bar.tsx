@@ -123,7 +123,11 @@ const NavigationBar: React.FC = () => {
                 ))}
               </Nav>
               <Nav>
-                <NavDropdown title={<><span className="bi bi-translate"></span></>} id="basic-nav-dropdown">
+                <NavDropdown
+                  title={<><span className="bi bi-translate"></span></>}
+                  id="basic-nav-dropdown"
+                  align="end"
+                >
                   <NavDropdown.Item onClick={() => changeLanguage('en')}>
                     { t('en') }
                   </NavDropdown.Item>
