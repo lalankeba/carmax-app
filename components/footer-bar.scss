@@ -1,0 +1,14 @@
+.footer-bar {
+
+  .craft-link {
+    color: var(--bs-success-text-emphasis); /* Initial color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .craft-link:hover {
+    color: var(--bs-success); /* Hover color */
+    transform: translateY(-3px); /* Slight upward movement */
+  }
+
+}

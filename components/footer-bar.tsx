@@ -1,5 +1,10 @@
+import React from "react";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
 import { Col, Container, Row } from "react-bootstrap";
+import Link from "next/link";
+import "./footer-bar.scss";
 
 const FooterBar: React.FC = () => {
   const t = useTranslations('components.FooterBar');
@@ -8,11 +13,21 @@ const FooterBar: React.FC = () => {
     <>
       <div className="footer-bar bg-body-tertiary">
         <Container fluid="md">
-          <Row style={{ minHeight: '3.5rem' }}>
-            <Col className="d-flex justify-content-center align-items-center">
-              <div>
-                <span className="me-1">{t('title', { currentYear: new Date().getFullYear() })}</span>
-                <span>{t('craft')}</span>
+
+          <Row style={{ minHeight: 'var(--footer-bar-height)' }}>
+            <Col className="d-flex justify-content-center align-items-center" md={7}>
+              <div className="text-center">
+                {t('title', { currentYear: new Date().getFullYear() })}
+              </div>
+            </Col>
+            <Col className="d-flex justify-content-center align-items-center" md={5}>
+              <div className="text-center">
+                {
+                  t.rich('craft', {
+                    icon: () => <FontAwesomeIcon icon={faReact} title="React" />,
+                    link: (chunks) => <Link href="https://lalankeba.github.io/" target="_blank" rel="noopener noreferrer" className="craft-link">{chunks}</Link>,
+                  })
+                }
               </div>
             </Col>
           </Row>

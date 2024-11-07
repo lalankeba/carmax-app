@@ -97,7 +97,7 @@
     },
     "FooterBar": {
       "title": "\u00A9 {currentYear} CARMAX Auto Repair, kaikki oikeudet pidätetään.",
-      "craft": "Valmistaja Lalanke Athauda"
+      "craft": "Rakennettu <icon></icon> -illa <link>Lalanke Athauda</link> toimesta."
     }
   }
 }

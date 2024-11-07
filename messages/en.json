@@ -97,7 +97,7 @@
     },
     "FooterBar": {
       "title": "\u00A9 {currentYear} CARMAX Auto Repair, all rights reserved.",
-      "craft": "Crafted by Lalanke Athauda"
+      "craft": "Built with <icon></icon> by <link>Lalanke Athauda</link>"
     }
   }
 }
