@@ -7,9 +7,11 @@ import FooterBar from "@/components/footer-bar";
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 config.autoAddCss = false;
+import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.scss";
 
 const exo2 = Exo_2({ subsets: ["latin"]});
+const GA_ID = `${process.env.NEXT_PUBLIC_GA_ID}`;
 
 export async function generateMetadata ({ params }: { params: { locale: string } }) {
   const { locale } = params;
@@ -82,6 +84,7 @@ export default async function LocaleLayout({
           </div>
         </NextIntlClientProvider>
       </body>
+      <GoogleAnalytics gaId={`${GA_ID}`} />
     </html>
   );
 }
