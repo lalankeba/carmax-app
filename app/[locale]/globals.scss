@@ -19,18 +19,9 @@ html, body {
 
 .app {
   padding-top: var(--navigation-bar-height);
-  padding-bottom: var(--footer-bar-height);
   position: relative;
   min-height: 100svh;
   overflow: auto;
-
-  footer {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    min-height: var(--footer-bar-height);
-  }
 
   .text-justify {
     text-align: justify;

@@ -13,8 +13,7 @@ const FooterBar: React.FC = () => {
     <>
       <div className="footer-bar bg-body-tertiary">
         <Container fluid="md">
-
-          <Row style={{ minHeight: 'var(--footer-bar-height)' }}>
+          <Row className="footer-row" style={{  }}>
             <Col className="d-flex justify-content-center align-items-center" md={7}>
               <div className="text-center">
                 {t('title', { currentYear: new Date().getFullYear() })}
