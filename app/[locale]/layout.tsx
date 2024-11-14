@@ -3,7 +3,7 @@ import { getMessages, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Exo_2 } from "next/font/google";
 import NavigationBar from "@/components/navigation-bar";
-import FooterBar from "@/components/footer-bar";
+import FooterBarV2 from "@/components/footer-bar-v2";
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 config.autoAddCss = false;
@@ -79,7 +79,7 @@ export default async function LocaleLayout({
               {children}
             </main>
             <footer>
-              <FooterBar />
+              <FooterBarV2 />
             </footer>
           </div>
         </NextIntlClientProvider>

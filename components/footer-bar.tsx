@@ -13,7 +13,7 @@ const FooterBar: React.FC = () => {
     <>
       <div className="footer-bar bg-body-tertiary">
         <Container fluid="md">
-          <Row className="footer-row" style={{  }}>
+          <Row className="footer-row">
             <Col className="d-flex justify-content-center align-items-center" md={7}>
               <div className="text-center">
                 {t('title', { currentYear: new Date().getFullYear() })}
