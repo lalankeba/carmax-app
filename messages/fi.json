@@ -93,10 +93,12 @@
       "subTitle": "Ota meihin yhteyttä kaikissa autohuoltotarpeissasi.",
       "phone": "+358 41 726 0959",
       "email": "pubudulasantha33@gmail.com",
-      "address": "Toivionkatu 5, 33900 Tampere, Finland"
+      "address": "Toivionkatu 5, 33900 Tampere, Suomi"
     },
     "FooterBar": {
-      "title": "\u00A9 {currentYear} CARMAX Auto Repair, kaikki oikeudet pidätetään.",
+      "title": "CARMAX Auto Repair",
+      "address": "Toivionkatu 5, 33900 Tampere, Suomi",
+      "copyright": "\u00A9 {currentYear} CARMAX Auto Repair, kaikki oikeudet pidätetään.",
       "craft": "Rakennettu <icon></icon> -illa <link>Lalanke Athauda</link> toimesta."
     }
   }

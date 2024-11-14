@@ -96,7 +96,9 @@
       "address": "Toivionkatu 5, 33900 Tampere, Finland"
     },
     "FooterBar": {
-      "title": "\u00A9 {currentYear} CARMAX Auto Repair, all rights reserved.",
+      "title": "CARMAX Auto Repair",
+      "address": "Toivionkatu 5, 33900 Tampere, Finland",
+      "copyright": "\u00A9 {currentYear} CARMAX Auto Repair, all rights reserved.",
       "craft": "Built with <icon></icon> by <link>Lalanke Athauda</link>"
     }
   }

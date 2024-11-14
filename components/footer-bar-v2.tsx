@@ -29,13 +29,13 @@ const FooterBarV2: React.FC = () => {
                       />
                     </Col>
                     <Col className="d-flex justify-content-start align-items-center" xs={9} sm={8} md={10}>
-                      <p>CARMAX Auto Repair</p>
+                      <p>{t('title')}</p>
                     </Col>
                   </Row>
                 </Col>
                 <Col className="d-flex justify-content-center align-items-center" xs={6} sm={6} md={6}>
                   <div>
-                    <p>Toivionkatu 5, 33900 Tampere, Finland</p>
+                    <p>{t('address')}</p>
                   </div>
                 </Col>
                 <Col className="d-flex justify-content-end align-items-center my-2" xs={1} sm={2} md={2}>
@@ -52,7 +52,7 @@ const FooterBarV2: React.FC = () => {
               <Row className="mt-1 mb-4">
                 <Col className="d-flex justify-content-center justify-content-md-start align-items-center" md={7}>
                   <div className="text-center">
-                    {t('title', { currentYear: new Date().getFullYear() })}
+                    {t('copyright', { currentYear: new Date().getFullYear() })}
                   </div>
                 </Col>
                 <Col className="d-flex justify-content-center justify-content-md-end align-items-center" md={5}>
