@@ -1,18 +1,31 @@
-import React from "react";
+"use client";
+import React, { useEffect, useRef } from "react";
 import { faFacebook, faReact } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useTranslations } from "next-intl";
 import { Col, Container, Row } from "react-bootstrap";
 import Link from "next/link";
-import "./footer-bar-v2.scss";
 import Image from "next/image";
+import "./footer-bar-v2.scss";
 
 const FooterBarV2: React.FC = () => {
   const t = useTranslations('components.FooterBar');
+  const footerRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const updateFooterHeight = () => {
+      const footerHeight = footerRef.current?.offsetHeight || 0;
+      document.documentElement.style.setProperty("--footer-bar-height", `${footerHeight}px`);
+    };
+
+    updateFooterHeight();
+    window.addEventListener("resize", updateFooterHeight);
+    return () => window.removeEventListener("resize", updateFooterHeight);
+  }, []);
 
   return (
     <>
-      <div className="footer-bar-v2 bg-body-tertiary">
+      <div ref={footerRef} className="footer-bar-v2 bg-body-tertiary">
         <Container fluid="md">
           <Row>
             <Col>
