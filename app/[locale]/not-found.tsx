@@ -5,6 +5,7 @@ import { faCarBurst } from '@fortawesome/free-solid-svg-icons';
 import { useTranslations } from 'next-intl';
 import { Col, Container, Row } from 'react-bootstrap';
 import Link from 'next/link';
+import "./not-found.scss";
 
 const baseTPath = 'pages.NotFound';
 
@@ -43,23 +44,25 @@ const NotFound = () => {
 
   return (
     <>
-      <Container fluid="md">
-        <Row>
-          <Col className="d-flex flex-column justify-content-center align-items-center" style={{ minHeight: 'calc(100svh - var(--navigation-bar-height) - var(--footer-bar-height))' }}>
-            <h1 className="display-1 mb-4">{t('title')}</h1>
-            <h2 className="mb-4">{t('subTitle')}</h2>
-            <FontAwesomeIcon icon={faCarBurst} size="8x" className="mb-4" />
-            <p>
-              {
-                t.rich('description', {
-                  link: (chunks) => <Link href="/">{chunks}</Link>,
-                  em: (chunks) => <em>{chunks}</em>
-                })
-              }
-            </p>
-          </Col>
-        </Row>
-      </Container>
+      <div className="not-found">
+        <Container fluid="md">
+          <Row>
+            <Col className="d-flex flex-column justify-content-center align-items-center" style={{ minHeight: 'calc(100svh - var(--navigation-bar-height) - var(--footer-bar-height))' }}>
+              <h1 className="display-1 mb-4">{t('title')}</h1>
+              <h2 className="mb-4">{t('subTitle')}</h2>
+              <FontAwesomeIcon icon={faCarBurst} size="8x" className="mb-4" />
+              <p>
+                {
+                  t.rich('description', {
+                    link: (chunks) => <Link href="/">{chunks}</Link>,
+                    em: (chunks) => <em>{chunks}</em>
+                  })
+                }
+              </p>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 }

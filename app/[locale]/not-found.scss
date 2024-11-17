@@ -1,0 +1,12 @@
+.not-found {
+
+  a {
+    color: var(--bs-success-text-emphasis);
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      color: var(--bs-success);
+    }
+  }
+}
