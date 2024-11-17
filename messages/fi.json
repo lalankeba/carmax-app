@@ -65,8 +65,8 @@
     "LocationContainer": {
       "title": "Sijainti",
       "subTitle": "Olemme sijaitsee",
-      "streetAddress": "Toivionkatu 5,",
-      "codeAndCity": "33900 Tampere,",
+      "streetAddress": "Mursketie 11 WAREHOUSE 14,",
+      "codeAndCity": "36220 Kangasala,",
       "country": "Suomi",
       "timeTitle": "Aukioloaika",
       "timeSubTitle": "Olemme tavoitettavissa seuraavilla aikaväleillä",
@@ -93,11 +93,11 @@
       "subTitle": "Ota meihin yhteyttä kaikissa autohuoltotarpeissasi.",
       "phone": "+358 41 726 0959",
       "email": "pubudulasantha33@gmail.com",
-      "address": "Toivionkatu 5, 33900 Tampere, Suomi"
+      "address": "Mursketie 11 WAREHOUSE 14, 36220 Kangasala, Suomi"
     },
     "FooterBar": {
       "title": "CARMAX Auto Repair",
-      "address": "Toivionkatu 5, 33900 Tampere, Suomi",
+      "address": "Mursketie 11 WAREHOUSE 14, 36220 Kangasala, Suomi",
       "copyright": "\u00A9 {currentYear} CARMAX Auto Repair, kaikki oikeudet pidätetään.",
       "craft": "Rakennettu <icon></icon> -illa <link>Lalanke Athauda</link> toimesta."
     }

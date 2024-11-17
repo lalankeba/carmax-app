@@ -65,8 +65,8 @@
     "LocationContainer": {
       "title": "Location",
       "subTitle": "We are located at",
-      "streetAddress": "Toivionkatu 5,",
-      "codeAndCity": "33900 Tampere,",
+      "streetAddress": "Mursketie 11 WAREHOUSE 14,",
+      "codeAndCity": "36220 Kangasala,",
       "country": "Finland",
       "timeTitle": "Opening Time",
       "timeSubTitle": "We are availabe in following time slots",
@@ -93,11 +93,11 @@
       "subTitle": "Reach out to us for all your car care needs.",
       "phone": "+358 41 726 0959",
       "email": "pubudulasantha33@gmail.com",
-      "address": "Toivionkatu 5, 33900 Tampere, Finland"
+      "address": "Mursketie 11 WAREHOUSE 14, 36220 Kangasala, Finland"
     },
     "FooterBar": {
       "title": "CARMAX Auto Repair",
-      "address": "Toivionkatu 5, 33900 Tampere, Finland",
+      "address": "Mursketie 11 WAREHOUSE 14, 36220 Kangasala, Finland",
       "copyright": "\u00A9 {currentYear} CARMAX Auto Repair, all rights reserved.",
       "craft": "Built with <icon></icon> by <link>Lalanke Athauda</link>"
     }
